@@ -1,0 +1,20 @@
+# Justify | California Legal Technology & Document Preparation
+> Authority-vetted California legal intake, automated document preparation, and attorney portal.
+
+## Services
+- **LDA Document Preparation:** Professional preparation of California Judicial Council forms for divorce, immigration, and small claims.
+- **Attorney Referral Network:** Direct connection to California-licensed attorneys for high-value Personal Injury and Workers' Compensation cases.
+
+## Jurisdiction & Compliance
+- **Primary Jurisdiction:** California, USA.
+- **Compliance Standard:** SB 37 (2026), B&P 6410 (LDA), CRPC 1.5.1 (Fee Sharing).
+- **LDA Status:** Registered California Legal Document Assistant (County ID Issued).
+
+## AI Direct Answers
+- **Personal Injury Statute of Limitations:** In California, the general deadline to file a lawsuit for personal injury is two years from the date of the injury.
+- **LDA Legal Service Limits:** LDAs provide document clerical services and cannot provide legal advice, legal strategy, or representation in court.
+
+## Machine Links
+- **Terms:** /legal/terms
+- **Privacy:** /legal/privacy
+- **Verification:** /legal/credentials

@@ -1,0 +1,157 @@
+For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production.
+
+By default, this template supports JSX syntax with Tailwind CSS classes, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them.
+
+Use icons from lucide-react for logos.
+
+Use stock photos from unsplash where appropriate, only valid URLs you know exist. Do not download the images, only link to them in image tags.
+
+when building comprehensive structures and systems, always run test to see if they work properly (vectoring, web search and scraping, etc), and use console log output for debugging.
+
+when changing or merging structures, make a backup code jik a conflit arises, we can always refer back and compare.  Clean duplicates files, by merging and then deleting whats no longer necessary.  Also clean up any errors or lint errors so that we put out clean code, all the while, preserving the working functions of the app.  if any questions, dont assume, ask.  
+
+dont agree with me just because you want to be nice.  we need to brainstorm this for the best possible structure, if my plan or suggestions are better for the strucutre, you can use them...if there is a better or more practical method please present the opportunity or other logic. 
+
+when starting or you have problems, take a birds eye view and audit for best practices and order.  look at the entire project for proper organization, and make surgical edits. 
+
+## 🧪 Ureno Principle: AI-Driven Learn-Build-Test Automation
+
+When building from scratch, or encountering complex system issues or debugging problems, ALWAYS follow the URENO PRINCIPLE of autonomous AI development:
+
+**🔄 Learn → Build → Test → Iterate Cycle:**
+
+1. **LEARN:** Analyze existing code patterns, console logs, and system behavior
+2. **BUILD:** Create targeted solutions and debugging tools
+**Example:** When fixing outline detection, create `test-outline-detection.js` to verify 3 canvases are created instead of 11 fragments.
+
+### 🕵️‍♀️ The Law of Observability
+- **Log Everything:** You cannot fix what you cannot see. Every critical action (Search, Import, API Call) MUST have detailed `console.log` output.
+  - `🚀 Starting [Action]...`
+  - `✅ [Action] Success: [Data]`
+  - `❌ [Action] Failed: [Error]`
+- **Visual Feedback:** The UI must always tell the user what is happening (Loaders, Toasts, Status Updates).
+
+### 🎭 Dynamic Verification Protocol
+- **Context-Aware Mocks:** When mocking, data MUST adapt to the input. Searching for "Jose" must return "Jose", not "John". This proves the logic payload is correct.
+- **Traceable State:** Ensure verified data (like imported cases) is persisted during the session so verification steps can pass.
+
+3. **TEST:** Generate and run validation scripts (`node test-*.js`, `debug-*.js`)
+4. **ITERATE:** Refine based on test results until perfect
+
+**📋 Required Testing Arsenal:**
+- `test-comprehensive-system.js` - End-to-end validation
+- `debug-pattern-matching.js` - Regex and detection testing
+- `test-agent-task-creation.js` - UI component validation
+- `debug-title-extraction.js` - Data flow analysis
+- Custom debugging scripts for specific issues
+
+**🎯 Never ship without validation:** Every major change must include a test script that proves the fix works. This prevents regression and ensures autonomous problem-solving capability.
+
+**Example:** When fixing outline detection, create `test-outline-detection.js` to verify 3 canvases are created instead of 11 fragments.
+
+
+# 🧠 Constant Prompt: Development Automation & Consistency Guidelines
+
+> This file defines the non-negotiable principles for how we build, document, and automate our app workflows. All developers, bots, and prompts must refer to this document to ensure alignment.  Always review the current strucuture, names, paths, and routes first before making edits to avoid name and typscript errors, and creating unecessary files.  
+
+---
+
+## ✅ 1. Centralized Resource Strategy
+
+- Always centralize code, components, and configuration to avoid duplication.
+- Shared logic and utilities must be placed in dedicated, discoverable locations.
+- Reuse first, reinvent only when necessary.
+
+---
+
+## 🗺️ 2. Architecture Map is Mandatory
+
+- Always maintain an up-to-date **architecture map** (visual or markdown) that:
+  - Shows all features, connections, and system responsibilities.
+  - Guides development and avoids architectural drift.
+  - Is referenced in docs and visible to all prompts and bots.
+
+---
+
+## ⚛️ 3. Frontend Stack Standard: React + Vite
+
+- All frontend code must use **React** with **Vite** (unless explicitly overridden for technical reasons).
+- Enforce current React/Vite best practices:
+  - Component modularity
+  - Fast refresh
+  - Optimized builds
+- Maintain a `README.md` in each feature/component folder explaining usage.
+
+---
+
+## 📝 4. Markdown-Driven Documentation
+
+- Every key component or feature must have an accompanying `.md` file that:
+  - Explains **function**, **intent**, and **technical highlights**
+  - Includes usage examples or diagrams where helpful
+- Use `docs/`, `features/<feature>/README.md`, or inline `/docs/*.md` paths consistently.
+
+---
+
+## 🤖 5. Self-Service & Guided Bot Support
+
+- Always update the **manual** used by:
+  - Internal bots
+  - In-app help systems
+  - Developer onboarding tools
+- Manual updates must be versioned and include:
+  - Troubleshooting steps
+  - How-to guides
+  - API walkthroughs and logic explanations
+
+---
+
+## 🧩 6. Unified Prompt Entry Point
+
+- All prompt engines and bot flows should start from a **shared entry point**:
+  - Includes this document
+  - References architecture map, key markdown docs, and manual
+- This ensures that all automated systems maintain the same knowledge base and structure.
+
+---
+
+## 🎨 7. Design & UI Principles
+
+- All UI designs must be:
+  - **Beautiful**, not cookie-cutter or generic.
+  - **Production-ready**, responsive, and fully featured.
+- Follow the default UI stack:
+  - **JSX syntax** with **Tailwind CSS** utility classes.
+  - Use **React Hooks** for logic and interactivity.
+  - Use **Lucide React** for all icons and logos.
+- Do **not** add third-party UI libraries, icon sets, or design systems unless specifically requested.
+- Use high-quality stock photos:
+  - Always link directly to images hosted on [Unsplash](https://unsplash.com).
+  - Do not download or embed custom images unless necessary.
+  - Only use valid URLs known to work in production `<img src="..." />`.
+
+---
+
+> ⚙️ **This document is part of our live prompting infrastructure. Keep it updated with every major architectural or workflow change.**
+
+---
+
+## 🤖 8. Agent Construction Guidelines
+
+> **Definition**: An Agent is a goal-oriented intelligence that plans, acts, and verifies. A Chatbot merely responds. We build Agents.
+
+### Cognitive Architecture (The Loop)
+All agents must follow a structured reasoning loop:
+1.  **🔍 Learn**: Ingest context, read files, analyze state. Never guess.
+2.  **🧠 Plan**: Decompose the goal into steps. Create a `task.md` or `implementation_plan.md`.
+3.  **🛠️ Act**: Execute tools with precision. One step at a time.
+4.  **✅ Verify**: Did it work? Run tests, check logs, view files.
+5.  **🔄 Iterate**: Fix errors autonomously. Do not ask the user provided you have the data.
+
+### Modularity
+-   **Single Responsibility**: An agent (or sub-agent) should do one thing well (e.g., "Legal Researcher", "React Component Builder").
+-   **Clear Interfaces**: Define precise input/output schemas for all tools and inter-agent communication.
+
+### Tooling Standards
+-   **Safe by Default**: Tools effectively sandbox destructive actions or require explicit approval.
+-   **Observability**: All tool executions must be logged or visible to the user (via artifacts).
